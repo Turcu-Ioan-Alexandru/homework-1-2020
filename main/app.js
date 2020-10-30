@@ -1,5 +1,8 @@
 const distance = (a, b) => {
 
+	//TODO: implementați funcția
+	//TODO: implement the function
+
 	if(typeof a  === "string" && typeof b  === "string")
 	{
 		if(a === "" && b ==="")
@@ -42,10 +45,6 @@ const distance = (a, b) => {
 	{
 		throw new TypeError("InvalidType");
 	}
-	//TODO: implementați funcția
-	//TODO: implement the function
-	
-	
 }
 
 module.exports.distance = distance
